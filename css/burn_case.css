@@ -1,0 +1,377 @@
+    /*.parent .bloc_one .col-md-6.picture_careers .sdcsdv{*/
+    /*    position: relative;*/
+    /*}*/
+    /*.parent .bloc_one .col-md-6.picture_careers .dsc:before{*/
+    /*    position: absolute;*/
+    /*    content: "";*/
+    /*    background: linear-gradient(180deg, #0077E4 0%, #A2D2FF 100%), url("../svg/Vector 2wgfrsgf.svg");*/
+    /*}*/
+    .parent .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .parent .bloc_two .row{
+        padding-top: 0;
+    }
+    .parent .row .col-md-3, .parent .row .col-md-3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .parent {
+        background: url("../svg/Mask Group_Parent_bg.svg") no-repeat;
+        background-position: -70px top;
+        background-size: 90%;
+    }
+    .parent .bloc_padding_left_right{
+        padding-left: 22%;
+        padding-right: 22%;
+    }
+    .parent .bloc_padding_top_border{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-bottom: 2px solid #E0E0E0
+    }
+    .parent .h3_font_avenir_heavy{
+        font-family: Avenir-Heavy;
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .parent .h3_padding_bottom{
+        padding-bottom: 20px;
+    }
+    .parent .p_font_avenir_book{
+        font-family: Avenir-Book;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+
+
+    .parent .bloc_one .row .col-md-6:first-child{
+        padding-left: 0;
+    }
+
+    .parent .bloc_two{
+        padding-left: 10%;
+        padding-right: 10%;
+        border-bottom: 2px solid #E0E0E0;
+    }
+    .parent .bloc_two .row .col-6.col_6_one{
+        max-width: 40%;
+        padding-left: 0;
+    }
+    .parent .bloc_two .row .col-6.col_6_two{
+        max-width: 50%;
+        margin: auto 0;
+        padding-right: 0;
+    }
+    .parent .bloc_two .row .col-6 img{
+        margin-left: -35px;
+    }
+    .parent .bloc_two .row .col-md-6 .bloc-two-width{
+        min-width: 85%;
+    }
+
+
+    .parent .bloc_four_parent .bloc_four_3_images{
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+    .parent .bloc_four_parent .bloc_four_3_images img{
+        width: 90%;
+        height: auto;
+    }
+    .parent .bloc_four_parent .bloc_four_3_images .img_two{
+        text-align: center;
+    }
+    .parent .bloc_four_parent .bloc_four_3_images .img_tree{
+        text-align: right;
+    }
+
+    .parent .bloc_five{
+        padding-right: 10%;/*10*/
+        padding-left: 10%;/*10*/
+    }
+    .parent .bloc_five .cicrles{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px
+    }
+    .parent .bloc_five .h3_left{
+        padding-left: 40px
+    }
+    .parent  .bloc_five_sofia_pro h1{
+        font-family: SofiaPro-Bold; font-size: 96px; line-height: 134px;
+    }
+    .parent  .bloc_five_sofia_pro p{
+        font-family: SofiaPro-Regular; font-size: 36px; line-height: 50px
+    }
+
+    .parent .bloc_five .h3_padding_bottom, .parent .bloc_six .girls .h3_padding_bottom{
+        padding-left: 30px;
+    }
+
+
+
+    .bloc_six{
+        padding-left: 10%;
+        padding-right: 10%;
+        background: url("../svg/Group 68_Bg-girls.svg") no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .bloc_six .girls .row img{
+        width: 90%;
+    }
+    .bloc_six .row .col-md-4 img{
+        width: 90%;
+    }
+    .parent .bloc_six .col-md-3{
+    padding-right: 0;
+    }
+    /*.parent .girls{*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*}*/
+
+    .parent .bloc_seven .row{
+        display: flex;
+        justify-content: space-between;
+        color: #333333
+    }
+    .parent .bloc_seven h6{
+        font-family: Avenir-Heavy;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    .parent .bloc_seven span{
+        font-family: Avenir-Light;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .parent .bloc_seven .row .col-sm-4{
+        padding-left: 0;
+    }
+    /*.parent .bloc_seven .row .max_width{*/
+    /*    max-width: 70%;*/
+    /*}*/
+
+    .parent .bloc_eight .footer-links{
+        display: inline-block;
+    }
+    .parent .bloc_eight button{
+        width: 150px;
+        background: #4E4E4E;
+        border-radius: 28px;
+        border: 2px solid #4E4E4E;
+        /*color: #FFFFFF;*/
+        padding: 5px 10px;
+        overflow: hidden;
+    }
+
+    @media (max-width: 375px) {
+        .parent{
+            background-size: 105%;
+            background-position: -40px 90px;
+        }
+        .parent .bloc_one h1{
+            font-size: 40px;
+        }
+        .parent .h3_font_avenir_heavy{
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .parent .bloc_five .h3_left{
+            padding-left: 13px
+        }
+        .parent .bloc_five_sofia_pro h1{
+            font-size: 46px;
+            line-height: 68px;
+        }
+        .parent .bloc_five_sofia_pro p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .parent .bloc_eight .footer-links{
+            padding-left: 23%;
+            /*padding-right: 50%;*/
+            text-align: center;
+            display: inline-grid;
+        }
+        .parent .bloc_eight .footer-links button:first-child{
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (min-width: 375px) and (max-width: 576px){
+        .parent{
+            background-size: 105%;
+            background-position: -50px 90px;
+        }
+        .parent .bloc_one h1{
+            font-size: 40px;
+        }
+        .parent .h3_font_avenir_heavy{
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .parent .bloc_five .h3_left{
+            padding-left: 16px
+        }
+        .parent .bloc_five_sofia_pro h1{
+            font-size: 48px;
+            line-height: 68px;
+        }
+        .parent .bloc_five_sofia_pro p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .parent .bloc_eight .footer-links{
+            padding-left: 28%;
+            /*padding-right: 50%;*/
+            text-align: center;
+            display: inline-grid;
+        }
+        .parent .bloc_eight .footer-links button:first-child{
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 768px){
+        .parent{
+            background-size: 100%;
+            background-position: -60px 70px;
+        }
+        .parent .h3_font_avenir_heavy{
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .parent .bloc_five .h3_left{
+            padding-left: 23px
+        }
+
+        .parent .bloc_five_sofia_pro h1{
+            font-size: 56px;
+            line-height: 80px;
+        }
+        .parent .bloc_five_sofia_pro p{
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+
+    }
+
+    @media (max-width: 768px) {
+        /*.parent{*/
+        /*    background-size: 100%;*/
+        /*}*/
+        .parent .bloc_one .careers_text{
+            max-width: 70%;
+            margin-left: -5px;
+        }
+        .parent .bloc_one .careers_text p{
+            display: none;
+        }
+        .parent .bloc_two{
+            padding-bottom: 0;
+        }
+        .parent .bloc_four_parent .bloc_four_3_images .img_one, .parent .bloc_four_parent .bloc_four_3_images .img_two, .parent .bloc_four_parent .bloc_four_3_images .img_tree{
+            text-align: center;
+        }
+        /*.parent .bloc_two .row .col-6.col_6_one{*/
+        /*    max-width: 100%;*/
+        /*}*/
+        /*.parent .bloc_one{*/
+        /*    !*padding-bottom: 50px ;*!*/
+        /*}*/
+        .bloc_six{
+            background: none;
+        }
+        .bloc_six .girls .row img{
+            width: 75%;
+        }
+        .bloc_six .row .col-md-4 img {
+            width: 85%;
+        }
+
+        .parent .bloc_eight{
+            padding-bottom: 50px;
+        }
+
+
+        .parent .bloc_padding_left_right{
+            padding-left: 12%;
+            padding-right: 12%;
+        }
+
+    }
+    
+    @media (min-width: 768px) and (max-width: 992px){
+        .parent .h3_font_avenir_heavy{
+            font-size: 22px;
+            line-height: 32px;
+        }
+
+        .parent .bloc_five_sofia_pro h1{
+            font-size: 62px;
+            line-height: 91px;
+        }
+        .parent .bloc_five_sofia_pro p{
+            font-size: 21px;
+            line-height: 30px;
+        }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1200px){
+        .parent .h3_font_avenir_heavy{
+            font-size: 24px;
+            line-height: 35px;
+        }
+
+        .parent .bloc_five_sofia_pro h1{
+            font-size: 70px;
+            line-height: 103px;
+        }
+        .parent .bloc_five_sofia_pro p{
+            font-size: 24px;
+            line-height: 35px;
+        }
+    }
+    @media (max-width: 1200px) {
+        .parent .bloc_two .row .col-md-6 .bloc-two-width{
+            min-width: 100%;
+        }
+
+    }
+    @media (min-width: 1200px) and (max-width: 1400px){
+        .parent .h3_font_avenir_heavy{
+            font-size: 26px;
+            line-height: 37px;
+        }
+        .parent .bloc_five_sofia_pro h1{
+            font-size: 78px;
+            line-height: 114px;
+        }
+        .parent .bloc_five_sofia_pro p{
+            font-size: 27px;
+            line-height: 40px;
+        }
+    }
+    
+    @media (min-width: 1400px) and (max-width: 1620px){
+        .parent .h3_font_avenir_heavy{
+            font-size: 28px;
+            line-height: 40px;
+        }
+        .parent .bloc_five_sofia_pro h1{
+            font-size: 86px;
+            line-height: 125px;
+        }
+        .parent .bloc_five_sofia_pro p{
+            font-size: 31px;
+            line-height: 45px;
+        }
+    }

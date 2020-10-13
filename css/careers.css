@@ -1,0 +1,641 @@
+    /*div.container{*/
+    /*    background-color: #333333;*/
+    /*    width: 800px;*/
+    /*    height: 800px;*/
+    /*}*/
+
+
+    #filter{
+        background-color: rgba(0,0,0,0.25);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1100;
+        display: none;
+    }
+
+    .disable-scroll{
+        position: relative;
+        overflow: hidden;
+        height: 100vw;
+    }
+
+    .div_2_modal#formCv{
+        /*text-align: center;*/
+        position: fixed;
+        left: calc(50% - 700px/2 + 0.5px);
+        top: calc(50% - 500px/2);
+        /*top: 15%;*/
+        /*left: 31.6%;*/
+        width: 700px;
+        min-height: 500px;
+        background-color: #FFFFFF;
+        border: 1px #DBDBDB solid;
+        border-radius: 28px;
+        justify-content: center;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        z-index: 1110;
+        display: none;
+        /*transition: .7s;*/
+    }
+    .div_2_modal .form_message{
+        padding: 6rem  6rem 2rem 6rem ;
+        background-clip: padding-box;
+    }
+    .div_2_modal .form_message .field{
+        color: #4F4F4F;
+        border-bottom: 1px solid #4F4F4F;
+    }
+
+    .div_2_modal .form_message .name {
+        background: url("../svg/person.svg") no-repeat left center;
+    }
+    .div_2_modal .form_message .email {
+        background: url("../svg/email.svg") no-repeat left center;
+    }
+    .div_2_modal .form_message .textarea{
+        border: 1px #4F4F4F solid;
+        min-height: 140px;
+    }
+    .div_2_modal .form_message .message{
+        padding: 15px 0 0 20px;
+    }
+    .file{
+
+        margin-bottom: 40px;
+
+    }
+    .input-file{
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+    .input-file + label {
+        font-family: Avenir-Medium;
+        font-size: 18px;
+        line-height: 26px;
+        color: #4F4F4F;
+        width: 464px;
+        height: 75px;
+        border: 1px dashed #4F4F4F;
+        box-sizing: border-box;
+        text-align: center;
+        /*margin-bottom: 40px;*/
+        left: calc(50% - 436px/2 + 0.5px);
+        position: relative;
+
+        /*position: relative;*/
+        /*top: calc(50% - 56px/2 + 0.5px);*/
+        /*max-width: 80%;*/
+        /*font-size: 1.25rem;*/
+        /*font-weight: 700;*/
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        padding: 1.3rem 1.25rem;
+    }
+    .upload{
+        font-family: Avenir-Heavy;
+        text-decoration: underline;
+    }
+    .div_2_modal .form_message .button{
+        border: 1px solid #3095F2;
+        background: #3095F2;
+        color: #FFFFFF;
+    }
+    .bloc-button{
+        text-align: center;
+    }
+
+    .div_2_modal .form_message .button:hover {
+        background: #1E78CA;
+    }
+
+    .div_2_modal .field::placeholder{
+        color: #4F4F4F;
+    }
+
+
+    .parent{
+        background: url("../svg/Mask Group_Parent_bg.svg") no-repeat;
+        background-position: left 400px;
+        /*background-size: contain;*/
+        background-size: 93%;
+    }
+
+        .row{
+            margin-right: 0;
+        }
+        .parent .bloc_one{
+            padding-left: 10%;
+            padding-bottom: 200px
+        }
+        .parent .bloc_one .row{
+            position: relative;
+            padding-top: 140px
+        }
+        .parent .bloc_one .careers_text{
+            max-width: 70%;
+        }
+        .parent .bloc_one h1{
+            font-family: ProductSans-Bold;
+            font-size: 96px;
+            line-height: 116px;
+            color: #333333;
+            padding-bottom: 60px;
+            /*white-space: nowrap;*/
+        }
+
+        .parent .bloc_one p{
+            /*max-width: 70%; те саме що і max-width: 70% в .careers_text*/
+            font-family: Avenir-Light;
+            font-size: 24px;
+            line-height: 34px;
+            color: #000000;
+            padding-bottom: 20px;
+        }
+        .parent .bloc_one .col-md-6.picture_careers{
+            padding-right: 0;
+            text-align: end;
+            width: 100%;
+        }
+        .parent .bloc_one .col-md-6.picture_careers img{
+            width: 100%;
+            max-width: 750px;
+            padding-top: 40px;
+        }
+
+
+
+        .parent .bloc_two{
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-bottom: 100px;
+        }
+
+        .parent .bloc_two h1{
+            text-align: center;
+            font-family: Avenir-Black;
+            font-size: 36px;
+            line-height: 49px;
+            text-transform: uppercase;
+            padding-bottom: 40px;
+        }
+        .parent .bloc_two .card{
+            background: transparent;
+            border: none;
+            border-top: 1px solid #E0E0E0;
+            border-radius: 0;
+            /*border-bottom: none;*/
+            /*border-left: none;*/
+            /*border-right: none;*/
+        }
+
+        .parent .bloc_two .card-header {
+            background: transparent;
+            border-bottom: none;
+            text-align: left;
+            /*cursor: pointer;*/
+        }
+
+        .parent .bloc_two .card-header .mb-0:before {
+        content: "";
+        height: 10px;
+        transform: rotate(45deg);
+        width: 10px;
+        margin-right: 32px;
+        margin-top: 20px;
+        border-width: 0 2px 2px 0;
+        border-color: #828282;
+        border-style: solid;
+        position: absolute;
+        right: 0;
+        }
+        .parent .bloc_two .card-header .mb-0:after {
+        display: none;
+        content: "";
+        height: 10px;
+        transform: rotate(-135deg);
+        width: 10px;
+        margin-right: 32px;
+        margin-top: 20px;
+        border-width: 0 2px 2px 0;
+        border-color: #1C72C2;
+        border-style: solid;
+        position: absolute;
+        right: 0;
+        }
+
+        .parent .bloc_two .card-header.collapsed:hover .mb-0:before, .parent .bloc_two .card-header.collapsed:active .mb-0:before{
+            border-color: #1C72C2;
+        }
+         .parent .bloc_two .card-header:not(.collapsed) .mb-0:before{
+             display: none;
+        }
+        .parent .bloc_two .card-header:not(.collapsed) .mb-0:after{
+           display: contents;
+        }
+
+
+        .parent .bloc_two .card-header:hover .btn-link, .parent .bloc_two .card-header:focus .btn-link{
+            color: #1C72C2;
+        }
+        .parent .bloc_two .card-header:not(.collapsed) .btn-link, .parent .bloc_two .card-header:not(.collapsed):focus .btn-link{
+            color: #1C72C2;
+        }
+
+
+        .parent .bloc_two .card-header .btn{
+            font-family: Avenir-Heavy;
+            font-size: 30px;
+            line-height: 42px;
+            color: #3095F2;
+        }
+        .parent .bloc_two .card-header .btn-link:hover, .parent .bloc_two .card-header .btn-link:focus{
+            /*color: #3095F2;*/
+            /*color: #1C72C2;*/
+            text-decoration: none;
+        }
+
+        .parent .bloc_two .row h5{
+            font-family: Avenir-Black;
+            font-size: 20px;
+            line-height: 25px;
+            color: #000000;
+            padding-top:50px;
+            padding-bottom:20px;
+        }
+        .parent .bloc_two .row .col-6 .max_width{
+            max-width: 85%;
+        }
+        .parent .bloc_two .row ul{
+            padding-left: 0;
+        }
+        .parent .bloc_two .row ul li{
+            color: #3095F2;
+        }
+                .parent .bloc_two .mar_bottom p{
+                    margin-bottom: 7px;
+                }
+
+                .parent .bloc_two .mar_bottom_one p{
+                    margin-bottom: 25px;
+                }
+
+        .parent .bloc_two .card-body{
+            padding: 1.25rem 0;
+        }
+        .parent .bloc_two .card-body p{
+            font-family: Avenir-Medium;
+            font-size: 18px;
+            line-height: 25px;
+            color: #828282;
+        }
+
+
+
+
+    .parent .bloc_two .apply_position{
+        text-align: center;
+        padding-bottom: 40px;
+        /*display: none;*/
+    }
+    /*.parent .bloc_two .apply_position:last-child{*/
+    /*    text-align: center;*/
+    /*    padding-bottom: 0;*/
+    /*    !*display: none;*!*/
+    /*}*/
+    .parent .apply_position button{
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 28px;
+        width: 250px;
+        padding: 15px 0;
+        font-family: Avenir-Heavy;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        background: #3095F2
+    }
+
+
+
+        .div_1{
+            /*min-height: 400px;*/
+            min-height: 20vw;
+            height: 100%;
+            background: url("../img/Vector 6_NEW_bg_footer.png") no-repeat;
+            background-size: 100%;
+            background-position: bottom;
+        }
+
+    .div_2 {
+        /*min-height: 700px;*/
+    }
+    /*.container-fluid{*/
+    /*    padding-right: 10%;*/
+    /*    padding-left: 10%;*/
+    /*}*/
+
+    /*.picture_careers{*/
+    /*    height: 600px;*/
+    /*    background: url("../svg/Mask GroupPic_Careers_.svg") no-repeat;*/
+    /*    background-size: cover;*/
+    /*    background-position: left;*/
+    /*    position: relative;*/
+    /*    !*left: 200px;*!*/
+    /*    text-align: end;*/
+    /*}*/
+    /*@media (min-width: 1920px) {*/
+    /*    .container-fluid{*/
+    /*        max-width: 1920px;*/
+    /*    }*/
+    /*}*/
+
+
+    @media (max-width: 375px){
+        .parent .bloc_one {
+            padding-bottom: 50px;
+        }
+        .card-header {
+            padding: .75rem .8rem;
+        }
+        .parent .bloc_two h1 {
+            font-size: 7vw;
+            line-height: 11vw;
+        }
+        .parent .bloc_one h1{
+            font-size: 11vw;
+            padding-bottom: 24px;
+            line-height: 43px;
+        }
+        .parent .bloc_one .careers_text {
+            max-width: 90%;
+            margin-left: 10px;
+        }
+        .parent .bloc_two .card-header .btn{
+            font-size: 5vw;
+            line-height: 6vw;
+            padding-left: 0;
+        }
+        .parent .bloc_two .card-header .mb-0::before, .parent .bloc_two .card-header .mb-0::after {
+            margin-right: 18px;
+            margin-top: 12px;
+        }
+        .parent .bloc_one p{
+            font-size: 5vw;
+            line-height: 7vw;
+            padding-bottom: 15px;
+        }
+        .parent .bloc_two .card-body p {
+            font-size: 5vw;
+            line-height: 7vw;
+        }
+        .parent .bloc_two .row h5 {
+            font-size: 6vw;
+            line-height: 7vw;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+    }
+
+    @media (min-width: 375px) and (max-width: 576px){
+        .parent .bloc_one {
+            padding-bottom: 75px;
+        }
+        .card-header {
+            padding: .75rem 1.0rem;
+        }
+        .parent .bloc_one h1{
+            font-size: 43px;
+            padding-bottom: 24px;
+            line-height: 43px;
+        }
+        .parent .bloc_two h1 {
+            font-size: 24px;
+            line-height: 34px;
+        }
+        .parent .bloc_two .card-header .btn{
+            font-size: 18px;
+            line-height: 25px;
+            padding-left: 0;
+        }
+        .parent .bloc_two .card-header .mb-0::before, .parent .bloc_two .card-header .mb-0::after {
+            margin-right: 22px;
+            margin-top: 13px;
+        }
+        .parent .bloc_one p{
+            font-size: 18px;
+            line-height: 24px;
+            padding-bottom: 15px;
+        }
+        .parent .bloc_one .careers_text {
+            max-width: 90%;
+            margin-left: 10px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .div_1, .div_2_background{
+            display: none;
+        }
+        .div_2{
+            background: url("../svg/Group 87-New_bg_768px_careers.svg") no-repeat;
+            background-size: cover;
+            min-height: 700px;
+            padding-top: 100px;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 768px){
+        .parent .bloc_one {
+            padding-bottom: 100px;
+        }
+        .parent .bloc_two h1 {
+            font-size: 26px;
+            line-height: 36px;
+        }
+        .parent .bloc_one h1{
+            font-size: 45px;
+            padding-bottom: 30px;
+            line-height: 50px;
+        }
+        .parent .bloc_one .careers_text {
+            max-width: 85%;
+            margin-left: 10px;
+        }
+        .parent .bloc_two .card-header .btn{
+            font-size: 20px;
+            line-height: 27px;
+        }
+        .parent .bloc_two .card-header .mb-0::before, .parent .bloc_two .card-header .mb-0::after {
+            margin-top: 15px;
+        }
+        .parent .bloc_one p{
+            font-size: 18px;
+            line-height: 24px;
+            padding-bottom: 15px;
+        }
+    }
+
+
+    @media (max-width: 768px) {
+        .picture-none{
+            display: none;
+        }
+        .parent-bg-none{
+            background: none;
+        }
+
+        .parent .bloc_one .row{
+            padding-top: 120px;
+        }
+
+
+        .parent .bloc_one .row .col-md-6:first-child{
+            padding-left: 15px!important;
+        }
+
+
+        .parent .bloc_one .col-md-6.picture_careers img{
+            padding-top: 15px;
+        }
+        .parent .bloc_two {
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 50px;
+        }
+        /*.div_1, .div_2_background{*/
+        /*    display: none;*/
+        /*}*/
+        /*.div_2{*/
+        /*    background: url("../svg/Group 87-New_bg_768px_careers.svg") no-repeat;*/
+        /*    background-size: cover;*/
+        /*    min-height: 600px;*/
+        /*}*/
+    }
+
+    @media (min-width: 768px) and (max-width: 992px){
+        .parent .bloc_one .row{
+            padding-top: 120px;
+        }
+        .parent .bloc_one .careers_text {
+            max-width: 80%;
+        }
+        .parent .bloc_one h1{
+            font-size: 55px;
+            padding-bottom: 36px;
+            white-space: nowrap;
+        }
+        .parent .bloc_one p{
+            font-size: 19px;
+            line-height: 26px;
+        }
+        .parent .bloc_two h1 {
+            font-size: 28px;
+            line-height: 38px;
+        }
+        .parent .bloc_two .card-header .btn{
+            font-size: 22px;
+            line-height: 30px;
+        }
+        .parent .bloc_two .card-header .mb-0::before, .parent .bloc_two .card-header .mb-0::after {
+            margin-top: 15px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px){
+        .parent .bloc_one .row{
+            padding-top: 125px;
+        }
+        .parent .bloc_one .careers_text {
+            max-width: 78%;
+        }
+        .parent .bloc_one h1{
+            font-size: 66px;
+            padding-bottom: 42px;
+            white-space: nowrap;
+        }
+        .parent .bloc_one p{
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .parent .bloc_two h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .parent .bloc_two .card-header .btn{
+            font-size: 24px;
+            line-height: 33px;
+        }
+        .parent .bloc_two .card-header .mb-0::before, .parent .bloc_two .card-header .mb-0::after {
+            margin-top: 17px;
+        }
+    }
+
+    @media (min-width: 1200px) and (max-width: 1400px) {
+        .parent .bloc_one .row {
+            padding-top: 130px;
+        }
+
+        .parent .bloc_one .careers_text {
+            max-width: 75%;
+        }
+
+        .parent .bloc_one h1 {
+            font-size: 76px;
+            padding-bottom: 50px;
+        }
+
+        .parent .bloc_one p {
+            font-size: 21px;
+            line-height: 30px;
+        }
+
+        .parent .bloc_two h1 {
+            font-size: 32px;
+            line-height: 43px;
+        }
+
+        .parent .bloc_two .card-header .btn {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+
+    @media (min-width: 1400px) and (max-width: 1620px){
+        .parent .bloc_one .row{
+            padding-top: 135px;
+        }
+        .parent .bloc_one .careers_text {
+            max-width: 74%;
+        }
+        .parent .bloc_one h1{
+            font-size: 86px;
+            padding-bottom: 55px;
+        }
+        .parent .bloc_one p{
+            font-size: 22px;
+            line-height: 32px;
+        }
+        .parent .bloc_two h1 {
+            font-size: 34px;
+            line-height: 46px;
+        }
+        .parent .bloc_two .card-header .btn{
+            font-size: 28px;
+            line-height: 39px;
+        }
+
+        .div_2_modal#formCv{
+            width: 650px;
+            min-height: 500px;
+        }
+    }

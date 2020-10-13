@@ -1,0 +1,991 @@
+@media (max-width: 360px) {
+    .bloc__margin{
+        background-color: white;
+        margin-top: -105px;
+        /*margin-top: -29.5%;*/
+        padding-bottom: 0;
+    }
+
+    /*.main__section__6 .main__section__6_text__2{*/
+    /*    margin-top: -125px;*/
+    /*    margin-bottom: -110px;*/
+    /*}*/
+
+
+    .main__section{
+        padding-bottom: 0;
+    }
+    .main__section_title{
+        font-size: 21.2vw;
+        line-height: 20vw;
+        /*line-height: 70px;*/
+        padding-left: 6%;
+    }
+    .main__section_text{
+        font-size: 5vw;
+        line-height: 27px;
+        /*line-height: 5.5vw;*/
+        padding-top: 60px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .text__animation{
+        font-size: 16.5vw;
+    }
+    /*bloc p{*/
+    /*    font-size: 8.5vw;*/
+    /*}*/
+    .bloc .col-sm-6.col-md-4 p{/* ТУТ ЗАКІНЧИВ РОБОТУ 22.01*/
+        font-size: 8.5vw;
+    }
+    .main__section__4 .border_1{
+        border: #E3E3E3 solid;
+        border-width: 1px;
+    }
+    .main__section__4 .bloc__4 .number{
+        font-size: 13.8vw;
+    }
+    .main__section__4 .bloc__4 .bloc__4__text{
+        font-size: 4.4vw;
+        /*line-height: 7vw;*/
+        line-height: 22px;
+    }
+    .main__section__6 .text__animation__2{
+        font-size: 15.2vw;
+    }
+    .main__section__6 .main__section__6_text__2{
+        font-size: 3.89vw;
+        line-height: 20px;
+        margin-top: -125px;
+        margin-bottom: -110px;
+    }
+
+
+    .main__section__7__mobile .content_cen{
+        text-align: center;
+    }
+
+    .col-lg-6.content_cen.padding_top_black__iphone{
+        background: none;
+    }
+    .main__section__7__mobile .texts{
+        max-width: 85%;
+        margin: 0 auto;
+        font-size: 3.89vw;
+        line-height: 16px;
+    }
+
+    .main__section__7__mobile .section__7__text__plus{
+        display: none;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{/*CHANGE*/
+        text-align: center;
+        font-family: Avenir-Medium;
+        font-size: 3.9vw;
+        line-height: 26px;
+    }
+
+
+    .main__section__7__mobile .white_tel{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .white_tel .img_white_tel{
+        width: 100%;
+        max-width: 92%;
+    }
+
+    .main__section__7__mobile .black_tel{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .main__section__7__mobile .black_tel .img_black_tel{
+        width: 100%;
+        max-width: 92%;
+    }
+
+    .main__section__7__mobile .black__iphone{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .black__iphone .img_black__iphone{
+        width: 100%;
+        max-width: 92%;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+
+    .main__section{
+        padding-bottom: 30px;
+    }
+    .main__section_title{
+        font-family: ProductSans-Bold;
+        font-size: 77px;
+        line-height: 70px;
+        /*padding-left: 30px;*/
+        padding-left: 6%;
+    }
+
+    .main__section_text{
+        padding-top: 65px;
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .bloc__margin{
+        background-color: white;
+        margin-top: -105px;
+        padding-bottom: 0;
+    }
+
+
+
+    .main__section__4 .border_1{
+        border: #E3E3E3 solid;
+        border-width: 1px;
+    }
+    .main__section__4 .bloc__4 .number{
+        font-size: 50px;
+    }
+
+    .main__section__4 .bloc__4 .bloc__4__text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    .text__animation{
+        font-size: 65px;
+    }
+    .main__section__6 .text__animation__2{
+        font-size: 55px;
+    }
+    .main__section__6  .main__section__6_text__2{
+        font-family: Avenir-Black;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: -125px;
+        margin-bottom: -110px;
+    }
+
+
+    .main__section__7__mobile .content_cen{
+        text-align: center;
+    }
+
+    .col-lg-6.content_cen.padding_top_black__iphone{
+        background: none;
+    }
+    .main__section__7__mobile .texts{
+        max-width: 85%;
+        margin: 0 auto;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .main__section__7__mobile .section__7__text__plus{
+        display: none;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{
+        text-align: center;
+        font-family: Avenir-Medium;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .main__section__7__mobile .white_tel{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .white_tel .img_white_tel{
+        width: 100%;
+        max-width: 92%;
+    }
+
+    .main__section__7__mobile .black_tel{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .main__section__7__mobile .black_tel .img_black_tel{
+        width: 100%;
+        max-width: 92%;
+    }
+
+    .main__section__7__mobile .black__iphone{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .black__iphone .img_black__iphone{
+        width: 100%;
+        max-width: 92%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 576px) {
+    .main__section{
+        padding-bottom: 40px;
+    }
+    .main__section_text{
+        /*max-width: 430px;*/
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 4.2%;
+        padding-right: 4.2%;
+        padding-top: 75px;
+    }
+
+
+    .bloc__margin{
+        background-color: white;
+        margin-top: -97px;
+        /*margin-top: -29.5%;*/
+        padding-bottom: 0;
+    }
+
+    /*.main__section__6 .main__section__6_text__2{*/
+    /*    margin-top: -116px;*/
+    /*    margin-bottom: -100px;*/
+    /*}*/
+
+
+    .text__animation{
+        font-size: 102px;/*+37,25*/
+    }
+    .main__section__6 .text__animation__2{
+        font-size: 95px;/*+39,75 */
+    }
+    .main__section__6  .main__section__6_text__2{
+        font-size: 20px;
+        line-height: 30px;/*ТУТ ЗАКІНЧИВ РОБОТУ 21.01*/
+        /*margin-top: -116px;*/
+        /*margin-bottom: -100px;*/
+        margin-top: -120px;
+        margin-bottom: -104px;
+    }
+
+
+    .main__section__4 .border_1{
+        border: #E3E3E3 solid;
+        border-width: 1px;
+    }
+    .main__section__4 .bloc__4 .number{
+        font-size: 61px;/*+11,5px*/
+    }
+
+    .main__section__4 .bloc__4 .bloc__4__text{
+        font-size: 20px;/*+3.5px*/
+        line-height: 26px;
+    }
+
+
+    .main__section__7__mobile .content_cen{
+        text-align: center;
+    }
+
+    .col-lg-6.content_cen.padding_top_black__iphone{
+        background: none;
+
+    }
+    .main__section__7__mobile .texts{
+        max-width: 85%;
+        margin: 0 auto;
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .main__section__7__mobile .section__7__text__plus{
+        display: none;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{
+        text-align: center;
+        font-family: Avenir-Medium;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .main__section__7__mobile .white_tel{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .white_tel .img_white_tel{
+        width: 100%;
+        max-width: 91%;
+    }
+
+    .main__section__7__mobile .black_tel{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .main__section__7__mobile .black_tel .img_black_tel{
+        width: 100%;
+        max-width: 91%;
+    }
+
+    .main__section__7__mobile .black__iphone{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .black__iphone .img_black__iphone{
+        width: 100%;
+        max-width: 91%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){/**/
+    .main__section{
+        padding-bottom: 90px;
+    }
+    .main__section_text{
+        font-size: 22px;
+        line-height: 30px;
+        /*padding-left: 20px;*/
+        padding-top: 125px;
+    }
+    .text__animation{
+        font-size: 140px;/*+37,25*/
+    }
+
+
+    .bloc__margin{
+        background-color: white;
+        margin-top: -90px;
+        padding-bottom: 30px;
+    }
+
+    /*.main__section__6 .main__section__6_text__2{*/
+    /*    margin-top: -108px;*/
+    /*    margin-bottom: -92px;*/
+    /*}*/
+
+
+    .main__section__6 .text__animation__2{
+        font-size: 134px;/*+39,75 */
+    }
+    .main__section__6  .main__section__6_text__2{
+        font-size: 26px;
+        line-height: 42px;
+        margin-top: -115px;
+        margin-bottom: -99px;
+    }
+
+
+    .main__section__4 .border_1{
+        border: #E3E3E3 solid;
+        border-width: 1px;
+    }
+    .main__section__4 .bloc__4 .number{
+        font-size: 72px;
+    }
+
+    .main__section__4 .bloc__4 .bloc__4__text{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+
+    .main__section__7__mobile .content_cen{
+        text-align: center;
+    }
+
+    .col-lg-6.content_cen.padding_top_black__iphone{
+        background: none;
+
+    }
+    .main__section__7__mobile .texts{
+        max-width: 85%;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .main__section__7__mobile .section__7__text__plus{
+        display: none;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{
+        text-align: center;
+        font-family: Avenir-Medium;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .main__section__7__mobile .white_tel{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .white_tel .img_white_tel{
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .main__section__7__mobile .black_tel{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .main__section__7__mobile .black_tel .img_black_tel{
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .main__section__7__mobile .black__iphone{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .black__iphone .img_black__iphone{
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .section__8__footer .div_1{
+        background-size: 100% 400px;
+        min-height: 770px;/*більша висота блоку (з більшим шрифтом тексту)*/
+    }
+    .section__8__footer .div_1 .footer__text h3{
+        font-size: 26px;
+    }
+    .section__8__footer .div_1 .footer__text p{
+        font-size: 17px;
+    }
+    .elements.element_1{
+        /*bottom: 190px;*/
+        bottom: 100px;
+        left: 5%;
+    }
+    .elements.element_2{
+        /*bottom: 350px;*/
+        bottom: 225px;
+        left: 50%;
+    }
+    .elements.element_3{
+        /*bottom: 560px;*/
+        bottom: 355px;
+        right: 10%;
+    }
+    .div_2 .div_2_text_background{
+        font-size: 170px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .bloc__margin{
+        margin-top: -84px;
+        padding-bottom: 70px;
+    }
+
+    .text__animation{
+        font-size: 177px;/*+37,25*/
+    }
+    .main__section__6 .text__animation__2{
+        font-size: 174px;/*+39,75 */
+    }
+    .main__section__6  .main__section__6_text__2{
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: -105px;
+        margin-bottom: -89px
+    }
+
+
+
+    .main__section__4 .bloc__4 .number{
+        font-size: 83px;
+    }
+
+    .main__section__4 .bloc__4 .bloc__4__text{
+        font-size: 27px;
+        line-height: 34px;
+    }
+
+
+
+    .main__section__7__mobile .content_cen{
+        text-align: center;
+    }
+
+
+
+    .col-lg-6.content_cen.padding_top_black__iphone{
+        background: none;
+
+    }
+
+    .main__section__7__mobile .texts{
+        max-width: 85%;
+        margin: 0 auto;
+        font-size: 23px;
+        line-height: 32px;
+    }
+    /*.main__section__7__mobile .section__7__text__plus_2{*/
+    /*    font-size: 17px;*/
+    /*    line-height: 28px;*/
+    /*}*/
+
+    .main__section__7__mobile .section__7__text__plus{
+        display: none;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{
+        text-align: center;
+        font-family: Avenir-Medium;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .main__section__7__mobile .white_tel{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .white_tel .img_white_tel{
+        width: 100%;
+        max-width: 88%;
+    }
+
+    .main__section__7__mobile .black_tel{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .main__section__7__mobile .black_tel .img_black_tel{
+        width: 100%;
+        max-width: 88%;
+    }
+
+    .main__section__7__mobile .black__iphone{
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .main__section__7__mobile .black__iphone .img_black__iphone{
+        width: 100%;
+        max-width: 88%;
+    }
+
+
+
+    .section__8__footer .div_1{
+        background-size: 100% 450px;
+        /*min-height: 770px;!*більша висота блоку (з більшим шрифтом тексту)*!*/
+        min-height: 750px;
+    }
+    .section__8__footer .div_1 .footer__text{
+        /*max-width: 35%;*/
+        max-width: 45%;
+    }
+    .section__8__footer .div_1 .footer__text h3{
+        font-size: 29px;
+    }
+    .section__8__footer .div_1 .footer__text p{
+        font-size: 18px;
+    }
+    .elements.element_1{
+        /*bottom: 190px;*/
+        bottom: 113px;
+        left: 5%;
+    }
+    .elements.element_2{
+        /*bottom: 350px;*/
+        bottom: 247px;
+        left: 50%;
+    }
+    .elements.element_3{
+        /*bottom: 560px;*/
+        bottom: 406px;
+        right: 10%;
+    }
+    .div_2 .div_2_text_background{
+        font-size: 180px;
+    }
+
+    /*.main__section__7__mobile .section__7__text__plus{*/
+    /*    display: none;*/
+    /*}*/
+}
+/*@media (min-width: 992px) and (max-width: 1200px){*/
+/*    .main__section__7__mobile .texts{*/
+/*        font-size: 26px;*/
+/*        line-height: 38px;*/
+/*    }*/
+/*}*/
+@media (min-width: 992px) and (max-width: 1200px){/*ТУТ ДОДАВ УМОВУ НА МАКС 1200PX*/
+
+    .bloc__margin{
+        margin-top: -76px;
+        padding-bottom: 70px;
+    }
+
+    .text__animation{
+        font-size: 214px;/*+37,25*/
+    }
+    .main__section__6 .text__animation__2{
+        font-size: 214px;/*+39,75 */
+    }
+    .main__section__6  .main__section__6_text__2{
+        font-size: 38px;
+        line-height: 56px;
+        margin-top: -97px;
+        margin-bottom: -81px;
+    }
+
+
+
+    .main__section__4 .bloc__4 .number{
+        font-size: 96px;
+    }
+
+    .main__section__4 .bloc__4 .bloc__4__text{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .left_white_tel{/* 1 mobile white tel*/
+        /*padding-left: 40px;*/
+        padding-left: 8.5%;
+        /*padding-top: 3%;*/
+    }
+    .left_black_tel{
+        padding-left: 8%;
+        /*padding-top: 3%;*/
+    }
+    .left_top_black__iphone{
+        padding-top: 3%;
+    }
+
+    .padding_top_white_tel{
+        padding-top: 8%;
+        padding-left: 5%;
+    }
+
+    .padding_top_black_tel{
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 0;
+    }
+    .padding_top_black__iphone{
+        padding-top: 10%;
+        padding-left: 7%;
+    }
+    .cont_1{
+        padding-bottom: 5%;
+    }
+    .cont_2{
+        padding-bottom: 5%;
+    }
+    .cont_3{
+        padding-bottom: 5%;
+    }
+
+    .main__section__7__mobile .content_cen_2{
+        text-align: center;
+    }
+
+    .main__section__7__mobile .display_bloc_none{
+        display: block;
+    }
+    .main__section__7__mobile .display_bloc_none_2{
+        display: none;
+    }
+
+
+
+    .main__section__7__mobile .texts{
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .main__section__7__mobile .section__7__text__plus{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{
+        display: none;
+    }
+
+    .section__8__footer .div_1{
+        background-size: 100% 490px;
+        min-height: 770px;/*більша висота блоку (з більшим шрифтом тексту)*/
+    }
+    .section__8__footer .div_1 .footer__text h3{
+        font-size: 31px;
+    }
+    .section__8__footer .div_1 .footer__text p{
+        font-size: 20px;
+    }
+    .elements.element_1{
+        /*bottom: 190px;*/
+        bottom: 122px;
+        left: 5%;
+    }
+    .elements.element_2{
+        /*bottom: 350px;*/
+        bottom: 260px;
+        left: 50%;
+    }
+    .elements.element_3{
+        /*bottom: 560px;*/
+        bottom: 444px;
+        right: 10%;
+    }
+
+    .div_2 .div_2_text_background{
+        font-size: 190px;
+    }
+}
+
+
+@media (min-width: 1200px)and (max-width: 1620px){
+    .main__section__7__mobile .texts{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{
+        display: none;
+    }
+
+    .main__section__7__mobile .content_cen_2{
+        text-align: center;
+    }
+
+    .left_white_tel{/* 1 mobile white tel*/
+        /*padding-left: 40px;*/
+        padding-left: 6%;
+        padding-top: 3%;
+    }
+    .left_black_tel{
+        padding-left: 8%;
+        padding-top: 3%;
+    }
+    .left_top_black__iphone{
+        padding-top: 3%;
+    }
+
+    .padding_top_white_tel{
+        padding-top: 9%;
+        padding-left: 5%;
+    }
+    .padding_top_black_tel{
+        padding-top: 6%;
+        padding-right: 6%;
+        padding-left: 0;
+    }
+    .padding_top_black__iphone{
+        padding-top: 13%;
+        padding-left: 7%;
+    }
+    .cont_1{
+        padding-bottom: 5%;
+    }
+    .cont_2{
+        padding-bottom: 5%;
+    }
+    .cont_3{
+        padding-bottom: 5%;
+    }
+
+
+    .main__section__7__mobile .display_bloc_none{
+        display: block;
+    }
+    .main__section__7__mobile .display_bloc_none_2{
+        display: none;
+    }
+
+    .section__8__footer .div_1{
+        background-size: 100% 520px;
+        min-height: 770px;/*більша висота блоку (з більшим шрифтом тексту)*/
+    }
+    .section__8__footer .div_1 .footer__text h3{
+        font-size: 34px;
+    }
+    .section__8__footer .div_1 .footer__text p{
+        font-size: 22px;
+    }
+    /*.elements.element_3{*/
+    /*    !*bottom: 560px;*!*/
+    /*    bottom: 473px;*/
+    /*    right: 10%;*/
+    /*}*/
+
+    .div_2 .div_2_text_background{
+        font-size: 230px;
+    }
+}
+
+@media (min-width: 1620px) {
+    .main__section_text{
+        font-size: 26px;
+    }
+    .main__section__7__mobile .section__7__text__plus_2{
+        display: none;
+    }
+    .main__section__7__mobile .content_cen_2{
+        text-align: center;
+    }
+
+    .left_white_tel{/* 1 mobile white tel*/
+        /*padding-left: 40px;*/
+        padding-left: 6%;
+        padding-top: 3%;
+    }
+    .left_black_tel{
+        padding-left: 5.5%;
+        padding-top: 3%;
+    }
+    .left_top_black__iphone{
+        padding-top: 3%;
+    }
+
+    .padding_top_white_tel{
+        padding-top: 10%;
+        padding-left: 7%;
+    }
+    .padding_top_black_tel{
+        padding-top: 8%;
+        padding-right: 8%;
+        padding-left: 0;
+    }
+    .padding_top_black__iphone{
+        padding-top: 15%;
+        padding-left: 9%;
+    }
+
+
+    .cont_1{
+        padding-bottom: 5%;
+    }
+    .cont_2{
+        padding-bottom: 5%;
+    }
+    .cont_3{
+        padding-bottom: 5%;
+    }
+
+
+    .main__section__7__mobile .display_bloc_none{
+        display: block;
+    }
+    .main__section__7__mobile .display_bloc_none_2{
+        display: none;
+    }
+
+    .section__8__footer .div_1{
+        background-size: 100% 550px;
+        min-height: 780px;/*більша висота блоку (з більшим шрифтом тексту)*/
+    }
+    .elements.element_1{
+        /*bottom: 190px;*/
+        bottom: 133px;
+        left: 5%;
+    }
+    .elements.element_2{
+        /*bottom: 350px;*/
+        bottom: 275px;
+        left: 45%;
+    }
+    .elements.element_3{
+        /*bottom: 560px;*/
+        bottom: 508px;
+        /*right: 10%;*/
+        right: 5%;
+    }
+}
+
+
+
+
+/*@media (min-width: 375px) and (max-width: 910px){*/
+/*    .main__section{*/
+/*        padding-bottom: 70px;*/
+/*    }*/
+/*}*/
+
+@media (min-width: 770px) and (max-width: 1020px)  {
+    .nav-item{
+        margin-right: 10px;
+    }
+
+}
+
+
+@media (min-width: 375px) and (max-width: 430px){
+    .main__section_title{
+        font-size: 85px;
+        line-height: 80px;
+        /*padding-left: 25px;*/
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 768px){
+    .main__section_title{
+        font-size: 100px;
+        line-height: 90px;
+        /*padding-left: 30px;*/
+        padding-left: 4%;
+    }
+}
+
+/*@media (min-width: 576px) and (max-width: 620px){*/
+/*    !*.main__section_title{*!*/
+/*    !*    font-size: 115px;*!*/
+/*    !*    line-height: 110px;*!*/
+/*    !*}*!*/
+/*    .main__section_text{*/
+/*        font-size: 22px;*/
+/*        line-height: 30px;!*ЗВЕРНУТИ УВАГУ НА ТЕ ЩО НЕКОРЕКТНО РОЗМІР МІНЯЄТЬСЯ ПРИ НЕКОРЕКТНОМУ РОЗШИРЕННІ, *!*/
+/*        !*padding-left: 20px;*!*/
+/*        padding-top: 105px;*/
+/*    }*/
+/*}*//* ПЕРЕНІС СТИЛІ В МЕДІА 576-768Ррх*/
+
+
+@media (min-width: 768px) and (max-width: 930px){/*max-width: font-size was 910px*/
+    .main__section_title{
+        font-size: 140px;
+        line-height: 130px;
+    }
+}
+
+@media (min-width: 930px)/*min-width: font-size was 910px*/ and (max-width: 1140px){
+    .main__section_title{
+        font-size: 170px;
+        line-height: 160px;
+        padding-left: 4%;
+    }
+}
+@media (min-width: 1920px) {
+    .container-fluid{
+        max-width: 1920px;
+    }
+}

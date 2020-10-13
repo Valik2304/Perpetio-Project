@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perpetio</title>
+
+<!--    <script src="js/InHeader.js"></script>-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/careers.css">
+    <link rel="stylesheet" href="css/font.css">
+<!--    <script src="js/modal.js"></script>-->
+</head>
+<body>
+
+
+<div class="none collapse navbar-collapse justify-content-end fixed-top" id="navbarsExample09" style="z-index: 5000">
+    <div class="grey_backg">
+
+    </div>
+    <div class="blue_backg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="my-1 mx-2 close"></span>
+        </button>
+
+        <ul class="navbar-nav mr-auto" style="position: absolute; z-index: 1; margin-top: 5px; margin-right: 0 !important;">
+            <!--                     margin-right: 0 !important; - використав щоб занулити дію класу mr-auto( не пускає меню навігації вправо від лого Perpetio)-->
+            <li class="nav-item ">
+                <a class="nav-link home " href="../index.html">Home
+                    <!--                                        <span class="sr-only">(current)</span>-->
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="../works.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link current" href="../careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link contact" href="../contact_us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Let’s talk</a>
+            </li>
+
+        </ul>
+        <p class="text_backg">Get in <br> touch</p>
+    </div>
+</div>
+
+
+
+<header class="header scroll demo-scroll-shadows--black fixed-top" style="">
+
+
+
+    <nav class="navbar navbar-expand-md  navbar-light rounded">
+        <a href="/" class="navbar-brand hvr-buzz">
+            <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio" class="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <!--            <span class="my-1 mx-2 close">X</span>-->
+        </button>
+
+        <div class="вава collapse navbar-collapse justify-content-end" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto" style="margin-top: 5px;
+                margin-right: 0 !important;">
+                <!--                     margin-right: 0 !important; - використав щоб занулити дію класу mr-auto( не пускає меню навігації вправо від лого Perpetio)-->
+                <li class="nav-item active">
+                    <a class="nav-link home" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../works.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link current" href="../careers.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link contact" href="../contact_us.html">Contact Us</a>
+                </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link disabled" href="#">Disabled</a>-->
+                <!--                </li>-->
+                <!--                <li class="nav-item dropdown">-->
+                <!--                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"-->
+                <!--                       aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+                <!--                    <div class="dropdown-menu" aria-labelledby="dropdown09">-->
+                <!--                        <a class="dropdown-item" href="#">Action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Another action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                <!--                    </div>-->
+                <!--                </li>-->
+            </ul>
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+<section>
+
+<!--    <button onclick="show('block')">Click</button>-->
+    <div id="filter" onclick="show('none')"></div>
+    <div >
+        <div class="div_2 div_2_modal" id="formCv">
+            <form action="" class="form_message formValidate" method="post" enctype="multipart/form-data">
+                <div class="row">
+
+                    <div class="col-sm-6 col-md-6 col_name" style="margin-bottom: 60px;">
+                        <label>
+                            <input type="text" id="name_id" class=" name field " name="name" placeholder="Your Name...">
+                        </label>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 input_email" style="margin-bottom: 60px;">
+                        <label>
+                            <input type="text" class="field email" name="email" placeholder=" Your E-Mail...">
+                        </label>
+                        <!--                        <img src="../svg/alert-circle.svg" class="img_email_circle" alt="">-->
+                    </div>
+
+                    <div class=" col-sm-12" style="margin-bottom: 20px;">
+                        <label>
+                            <textarea type="text" class="field message textarea" name="message" placeholder="Please tell us why this role appeals to you..."></textarea>
+                        </label>
+                    </div>
+                    <div class="file">
+                        <!--                    <p>Drag or-->
+                        <!--                        <a type="file" class="field " href="">Upload</a> your CV-->
+                        <!--                    </p>-->
+                        <input type="file" id="file-1" class="input-file " data-multiple-caption="{count} Вибрано файлів" multiple>
+                        <label class="fileLabel" for="file-1">
+                            <span>Drag or
+                                <span class="spanTwo">Upload</span> your CV
+                                <img src="../svg/trash-delete_file.svg" alt="" class="noneText">
+                            </span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="bloc-button button-cv">
+                    <button type="submit" class=" button validateButton" value="validate" >Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="parent parent-bg-none">
+
+
+        <div class="bloc_one" style="">
+            <div class="row" style=" ">
+                <div class="col-md-6">
+                   <div class="careers_text">
+                       <h1>Careers</h1>
+                       <p>You will join and develop, yourself and apps, in a team of ambitious specialists delivering innovative solutions worldwide. </p>
+                       <p style="">  We are proud to think of ourselves  as a fun and interesting alternative  to climbing the corporate ladders. </p>
+                   </div>
+                </div>
+
+
+                <div class="col-md-6 picture_careers picture-none">
+                  <img src="../svg/Group 14.svg" alt="">
+<!--                    <div class="picture_careers_bg">-->
+
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bloc_two">
+            <h1>Currently Open Positions</h1>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" style="cursor: pointer" id="headingOne"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5 class="mb-0">
+                            <button id="UX/UI" class="btn btn-link ">
+                                UX and/or UI Designer
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Perpetio is looking for Middle iOS Developer to join the Lviv team on a full-time basis.</p>
+
+                            <p> We're looking for a strong iOS developer who has a passion for creating world class products,
+                                to join our awesome mobile team. This is a high profile role with the opportunity to make a
+                                significant impact across the business.
+                            </p>
+
+                            <p>
+                                You will be part of the Scrum Development team and work on our iOS native applications.
+                                In this role, you'll be a driving force in the engineering development of our mobile-first product UIs.
+                                You will work on highly visible technical features, help your teammates to resolve complex problems,
+                                and work closely with Product & Design Teams.
+                            </p>
+
+                           <div class="row">
+                               <div class=" col-sm-6">
+                                   <div class="max_width mar_bottom_one">
+                                       <h5>Responsibilities:</h5>
+                                       <ul>
+                                           <li><p>Product Definition - contributes to the definition of product features, getting involved in workshops with other engineering teams and Product Managers 
+                                           </p></li>
+                                           <li><p>Technical Ownership - consistently produces high quality and scalable software which fits the team's expectations and best practices</p></li>
+                                           <li><p>Continuous improvement - ensures continuous improvements by proposing and implementing new processes, designs and engineering practices that make the team more effective </p></li>
+                                           <li><p>Tracking Progress - tracks the progress being made towards the wider goals of the team, and transparently communicates this with the team, our Mobile Lead and CTPO</p></li>
+                                       </ul>
+                                   </div>
+                               </div>
+
+                               <div class=" col-sm-6">
+                                   <div class="max_width mar_bottom">
+                                       <h5>Requirments:</h5>
+                                       <ul>
+                                           <li><p>3+ years of quality Swift/Objective c development experience</p></li>
+                                           <li><p>Have built an iOS app and shipped it to the App store</p></li>
+                                           <li><p>1+ years' experience with consuming external APIs</p></li>
+                                           <li><p>Knowledge and application of the iOS Architecture Components</p></li>
+                                           <li><p>Integrating with APIs</p></li>
+                                           <li><p>Knowledge of how and what to track user actions with analytics providers</p></li>
+                                           <li><p>Understand the benefits of modular application construction</p></li>
+                                           <li><p>Building responsive apps that support all the line-up of iOS devices (up to the iphone 5s)</p></li>
+                                           <li><p>Launching and supporting non-trivial apps in the App Store</p></li>
+                                           <li><p>Reviewing and merging your teams pull requests, after those automated tests have passed</p></li>
+                                           <li><p>Coming up with awesome ideas to implement in the app!</p></li>
+                                           <li><p>Unit testing skills a must</p></li>
+                                           <li><p>Functional testing skills a must</p></li>
+                                           <li><p>Good English</p></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+
+                        <div class="apply_position">
+                            <button type="submit" class="button position disable" onclick="show('block')">
+                                Apply for this position
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" style="cursor: pointer" id="headingTwo"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h5 class="mb-0">
+                            <button id="PM" class="btn btn-link ">
+                                Project Manager
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Perpetio is looking for Middle iOS Developer to join the Lviv team on a full-time basis.</p>
+
+                            <p> We're looking for a strong iOS developer who has a passion for creating world class products,
+                                to join our awesome mobile team. This is a high profile role with the opportunity to make a
+                                significant impact across the business.
+                            </p>
+
+                            <p>
+                                You will be part of the Scrum Development team and work on our iOS native applications.
+                                In this role, you'll be a driving force in the engineering development of our mobile-first product UIs.
+                                You will work on highly visible technical features, help your teammates to resolve complex problems,
+                                and work closely with Product & Design Teams.
+                            </p>
+
+                            <div class="row">
+                                <div class=" col-sm-6">
+                                    <div class="max_width mar_bottom_one">
+                                        <h5>Responsibilities:</h5>
+                                        <ul>
+                                            <li><p>Product Definition - contributes to the definition of product features, getting involved in workshops with other engineering teams and Product Managers 
+                                            </p></li>
+                                            <li><p>Technical Ownership - consistently produces high quality and scalable software which fits the team's expectations and best practices</p></li>
+                                            <li><p>Continuous improvement - ensures continuous improvements by proposing and implementing new processes, designs and engineering practices that make the team more effective </p></li>
+                                            <li><p>Tracking Progress - tracks the progress being made towards the wider goals of the team, and transparently communicates this with the team, our Mobile Lead and CTPO</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class=" col-sm-6">
+                                    <div class="max_width mar_bottom">
+                                        <h5>Requirments:</h5>
+                                        <ul>
+                                            <li><p>3+ years of quality Swift/Objective c development experience</p></li>
+                                            <li><p>Have built an iOS app and shipped it to the App store</p></li>
+                                            <li><p>1+ years' experience with consuming external APIs</p></li>
+                                            <li><p>Knowledge and application of the iOS Architecture Components</p></li>
+                                            <li><p>Integrating with APIs</p></li>
+                                            <li><p>Knowledge of how and what to track user actions with analytics providers</p></li>
+                                            <li><p>Understand the benefits of modular application construction</p></li>
+                                            <li><p>Building responsive apps that support all the line-up of iOS devices (up to the iphone 5s)</p></li>
+                                            <li><p>Launching and supporting non-trivial apps in the App Store</p></li>
+                                            <li><p>Reviewing and merging your teams pull requests, after those automated tests have passed</p></li>
+                                            <li><p>Coming up with awesome ideas to implement in the app!</p></li>
+                                            <li><p>Unit testing skills a must</p></li>
+                                            <li><p>Functional testing skills a must</p></li>
+                                            <li><p>Good English</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apply_position">
+                            <button type="submit" class="button position disable" onclick="show('block')">
+                                Apply for this position
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-link="js-scroll-button-one"  style="cursor: pointer" id="headingThree"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h5 class="mb-0">
+                            <button id="AndroidDEv" class="btn btn-link ">
+                                Middle Android Developer
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Perpetio is looking for Middle iOS Developer to join the Lviv team on a full-time basis.</p>
+
+                            <p> We're looking for a strong iOS developer who has a passion for creating world class products,
+                                to join our awesome mobile team. This is a high profile role with the opportunity to make a
+                                significant impact across the business.
+                            </p>
+
+                            <p>
+                                You will be part of the Scrum Development team and work on our iOS native applications.
+                                In this role, you'll be a driving force in the engineering development of our mobile-first product UIs.
+                                You will work on highly visible technical features, help your teammates to resolve complex problems,
+                                and work closely with Product & Design Teams.
+                            </p>
+
+                            <div class="row">
+                                <div class=" col-sm-6">
+                                    <div class="max_width mar_bottom_one">
+                                        <h5>Responsibilities:</h5>
+                                        <ul>
+                                            <li><p>Product Definition - contributes to the definition of product features, getting involved in workshops with other engineering teams and Product Managers 
+                                            </p></li>
+                                            <li><p>Technical Ownership - consistently produces high quality and scalable software which fits the team's expectations and best practices</p></li>
+                                            <li><p>Continuous improvement - ensures continuous improvements by proposing and implementing new processes, designs and engineering practices that make the team more effective </p></li>
+                                            <li><p>Tracking Progress - tracks the progress being made towards the wider goals of the team, and transparently communicates this with the team, our Mobile Lead and CTPO</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class=" col-sm-6">
+                                    <div class="max_width mar_bottom">
+                                        <h5>Requirments:</h5>
+                                        <ul>
+                                            <li><p>3+ years of quality Swift/Objective c development experience</p></li>
+                                            <li><p>Have built an iOS app and shipped it to the App store</p></li>
+                                            <li><p>1+ years' experience with consuming external APIs</p></li>
+                                            <li><p>Knowledge and application of the iOS Architecture Components</p></li>
+                                            <li><p>Integrating with APIs</p></li>
+                                            <li><p>Knowledge of how and what to track user actions with analytics providers</p></li>
+                                            <li><p>Understand the benefits of modular application construction</p></li>
+                                            <li><p>Building responsive apps that support all the line-up of iOS devices (up to the iphone 5s)</p></li>
+                                            <li><p>Launching and supporting non-trivial apps in the App Store</p></li>
+                                            <li><p>Reviewing and merging your teams pull requests, after those automated tests have passed</p></li>
+                                            <li><p>Coming up with awesome ideas to implement in the app!</p></li>
+                                            <li><p>Unit testing skills a must</p></li>
+                                            <li><p>Functional testing skills a must</p></li>
+                                            <li><p>Good English</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply_position">
+                            <button type="submit" class="button position disable js-scroll-button-one" onclick="show('block')">
+                                Apply for this position
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" style="cursor: pointer" id="headingFour" data-link="js-scroll-button-two"  data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <h5 class="mb-0">
+                            <button id="IOSDev" class="btn btn-link ">
+                                Senior iOS Developer
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Perpetio is looking for Middle iOS Developer to join the Lviv team on a full-time basis.</p>
+
+                            <p> We're looking for a strong iOS developer who has a passion for creating world class products,
+                                to join our awesome mobile team. This is a high profile role with the opportunity to make a
+                                significant impact across the business.
+                            </p>
+
+                            <p>
+                                You will be part of the Scrum Development team and work on our iOS native applications.
+                                In this role, you'll be a driving force in the engineering development of our mobile-first product UIs.
+                                You will work on highly visible technical features, help your teammates to resolve complex problems,
+                                and work closely with Product & Design Teams.
+                            </p>
+
+                            <div class="row">
+                                <div class=" col-sm-6">
+                                    <div class="max_width mar_bottom_one">
+                                        <h5>Responsibilities:</h5>
+                                        <ul>
+                                            <li><p>Product Definition - contributes to the definition of product features, getting involved in workshops with other engineering teams and Product Managers 
+                                            </p></li>
+                                            <li><p>Technical Ownership - consistently produces high quality and scalable software which fits the team's expectations and best practices</p></li>
+                                            <li><p>Continuous improvement - ensures continuous improvements by proposing and implementing new processes, designs and engineering practices that make the team more effective </p></li>
+                                            <li><p>Tracking Progress - tracks the progress being made towards the wider goals of the team, and transparently communicates this with the team, our Mobile Lead and CTPO</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class=" col-sm-6">
+                                    <div class="max_width mar_bottom">
+                                        <h5>Requirments:</h5>
+                                        <ul>
+                                            <li><p>3+ years of quality Swift/Objective c development experience</p></li>
+                                            <li><p>Have built an iOS app and shipped it to the App store</p></li>
+                                            <li><p>1+ years' experience with consuming external APIs</p></li>
+                                            <li><p>Knowledge and application of the iOS Architecture Components</p></li>
+                                            <li><p>Integrating with APIs</p></li>
+                                            <li><p>Knowledge of how and what to track user actions with analytics providers</p></li>
+                                            <li><p>Understand the benefits of modular application construction</p></li>
+                                            <li><p>Building responsive apps that support all the line-up of iOS devices (up to the iphone 5s)</p></li>
+                                            <li><p>Launching and supporting non-trivial apps in the App Store</p></li>
+                                            <li><p>Reviewing and merging your teams pull requests, after those automated tests have passed</p></li>
+                                            <li><p>Coming up with awesome ideas to implement in the app!</p></li>
+                                            <li><p>Unit testing skills a must</p></li>
+                                            <li><p>Functional testing skills a must</p></li>
+                                            <li><p>Good English</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply_position">
+                            <button id="but" type="submit" class="button position disable js-scroll-button-two" onclick="show('block')">
+                                Apply for this position
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+</section>
+
+
+
+   <section class="address_footer">
+       <div class="div_1">
+
+       </div>
+
+       <div class="div_2">
+           <div class="div_2_background">Get in <br> touch</div>
+           <div class="row">
+               <div class="col-md-8">
+                   <h1 class="div_2_tittle ">Share your idea</h1>
+                   <form action="" class="form_message js-form-validation" name="message">
+                       <div class="row">
+
+                           <div class="col-sm-6 col-md-6 col_name">
+                               <label class="marBot">
+                                   <span class="blocNone"><img src="../svg/alert-circle.svg" alt=""></span>
+                                   <input type="text" class="field name  inputValidate" placeholder="Your Name...">
+                                   <div class=" blocNone" style="">Поле не заповнено</div>
+                               </label>
+                           </div>
+
+                           <div class="col-sm-6 col-md-6 input_email">
+                               <label class="marBot">
+                                   <span class="blocNone"><img src="../svg/alert-circle.svg" alt=""></span>
+                                   <input type="text" class="field email inputValidate" placeholder="Your E-Mail...">
+                                   <div class=" blocNone" >Поле не заповнено</div>
+                               </label>
+                               <!--                                        <img src="../svg/alert-circle.svg" class="img_email_circle" alt="">-->
+                           </div>
+
+                           <div class=" col-sm-12">
+                               <label class="marBot">
+                                   <span class="blocNone"><img src="../svg/alert-circle.svg" alt=""></span>
+                                   <input type="text" class="field message  inputValidate" placeholder="Message...">
+                                   <div class=" blocNone" >Поле не заповнено</div>
+                               </label>
+                           </div>
+                       </div>
+                       <div class="col-sm-12">
+                           <button type="submit" class="field button uniqueButton" >Send Message</button>
+                       </div>
+                   </form>
+               </div>
+
+               <div class="col-md-4 text-right">
+                   <!--                    <ul style="list-style:none; color: white">-->
+                   <!--                        <li>asdasdasd</li>-->
+                   <!--                        <li>ghdsdfsd</li>-->
+                   <!--                        <li>asdgsdfsd</li>-->
+                   <!--                    </ul>-->
+                   <ul class="list-unstyled text-center">
+                       <li><a href="#"><img src="../svg/Group_logo_Facebook.svg" alt=""></a></li>
+                       <li><a href="#"><img src="../svg/Group_logo_Instagram.svg" alt=""></a></li>
+                       <li><a href="#"><img src="../svg/Group_logo_Ball.svg" alt=""></a></li>
+                       <li><a href="#"><img src="../svg/Group_logo_Be.svg" alt=""></a></li>
+                       <li><a href="#"><img src="../svg/medium-size_logo_M.svg" alt=""></a></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+
+       <footer>
+           <div >
+               <ul class="footer">
+                   <li><a href="#">provacy policy</a></li>
+                   <li><a href="#">terms and conditions</a></li>
+               </ul>
+           </div>
+       </footer>
+   </section>
+</main>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+<script src="js/formValidate.js"></script>
+<script src="js/modalValidate.js"></script >
+<script src="js/modal.js"></script>
+
+<script src="js/wow.min.js"></script>
+<!--<script src="js/javasckript.js"></script>-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+
+    // $('.collapse').collapse()
+</script>
+<script>
+    // $('.position').on('click', function (not_load) {
+    //     not_load.preventDefault();
+    //     alert('додати форму реєстрації!')
+    // })
+</script>
+
+</body>
+</html>

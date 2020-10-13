@@ -1,0 +1,431 @@
+.header {
+    background-color: transparent;
+    padding: 20px 9.5% 10px 9.5%;
+}
+
+.scroll {
+    box-shadow: 0 4px 35px rgba(0, 87, 167, 0.15);
+    background: #FFFFFF;
+    transition: all 0.9s ease 0s;
+}
+
+.parent{
+    background-image:
+    /*        linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),*/
+    /*radial-gradient(54.02% 57.05% at 56.55% 34.52%, rgba(255, 255, 255, 0) 0%,*/
+    /*        #FFFFFF 100%), */
+    url("../svg/New_map_.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-size: contain;*/
+    /*background-size: 90%;*/
+    background-size:  65%;/*70%*/
+    background-position-y: -40px;/*80px*/
+}
+.parent .parent_two{
+    background: url("../svg/Mask Group_BG_form_Get_in_Touch.svg") no-repeat;
+    /*background-size: contain;*/
+    background-size: 75%;
+    background-position: left bottom;
+}
+.top{
+    position: relative;
+    padding-top: 150px
+}
+.parent .parent_two .bloc_one{
+    padding-left: 10%;
+    padding-bottom: 150px
+}
+.parent .parent_two .bloc_one .careers_text{
+    max-width: 75%;
+}
+.parent .parent_two .bloc_one h1{
+    font-family: ProductSans-Bold;
+    font-size: 96px;
+    line-height: 116px;
+    color: #333333;
+    padding-bottom: 40px;
+}
+
+.parent .parent_two .bloc_one p{
+    /*max-width: 70%; те саме що і max-width: 70% в .careers_text*/
+    font-family: Avenir-Heavy;
+    font-size: 30px;
+    line-height: 48px;
+    color: #333333;
+    padding-bottom: 20px;
+}
+
+
+.parent .parent_two .bloc_two{
+    padding-left: 10%;
+}
+
+.parent .parent_two .bloc_two .div_2{
+    background: transparent;
+    min-height: 500px;
+}
+.parent .parent_two .bloc_two .div_2 .row .col-md-8 {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.parent .parent_two .bloc_two .div_2 .form_message .field {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #4F4F4F;
+    color: #4F4F4F;
+}
+
+.parent .parent_two .bloc_two .field::placeholder{
+    color: #4F4F4F;
+    opacity: 1;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .name {
+    background: url("../svg/person_Grey_logo_name.svg") no-repeat left center;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .email {
+    background: url("../svg/email_Grey_logo_email_.svg") no-repeat left center;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .button {
+    background: #3095F2 !important;
+    width: 180px;
+    box-sizing: border-box;
+    padding: 16px 0;
+    border-radius: 28px;
+    border-bottom: none !important;
+    color: #FFFFFF;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .button:hover {
+    background: #556dcc!important;
+    transition: all 0.7s ease 0s;
+}
+
+
+
+            /*.div_2 {*/
+            /*    min-height: 500px;*/
+            /*}*/
+
+
+
+.bloc_tree .div_1{
+    min-height: 15vw;
+    height: 100%;
+    background: url("../img/Vector 6_Address_bg.png") no-repeat;
+    /*background-position-x: 0%;*/
+    /*background-position-y: 0%;*/
+    /*background-size: auto;*/
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.bloc_tree .div_2{
+    /*background: url("../svg/Group 73.svg") no-repeat;*/
+    min-height: 400px;
+}
+.bloc_tree .div_2 .div_2_background {
+    /*top: 100px;*/
+    top: 30px;
+}
+.bloc_tree .div_2 .col-md-8 .row{
+    padding-top: 150px;
+}
+.bloc_tree .div_2  .col-md-8 .row .col-md-6 .max_width_bloc{
+    color: #FFFFFF;
+    max-width: 75%;
+}
+.bloc_tree .div_2  .col-md-8 .row .col-md-6 .max_width_bloc h3{
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+}
+.bloc_tree .div_2  .col-md-8 .row .col-md-6 .max_width_bloc p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: -0.02em
+}
+.bloc_tree .div_2 .list-unstyled {
+    padding-top: 40px;
+    /*padding-top: 110px;*/
+    /*padding-right: 20%;*/
+    /*padding-left: 50%;*/
+}
+
+
+@media(max-width: 375px){
+    .parent {
+        background-image: url("../svg/Group 87_new_768_map.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 80%;
+        background-position-y: -10px;
+    }
+    .parent .parent_two .bloc_one{
+        padding-bottom: 22vw;
+    }
+    .top{
+        padding-top: 90px;
+    }
+    .parent .parent_two .bloc_one h1{
+        font-size: 10vw;
+        padding-bottom: 8px;
+    }
+    .parent .parent_two .bloc_one p{
+        font-size: 5vw;
+        line-height: 30px;
+        padding-bottom: 0
+    }
+    .parent .parent_two .bloc_one .careers_text {
+        max-width: 70%;
+    }
+    .parent .parent_two .bloc_two{
+        padding-left: 0;
+    }
+    .parent .parent_two{
+        background-position: left 230px;
+        background-size: 95%;
+        /*background-position-x: right;*/
+    }
+    .parent .parent_two .bloc_two .div_2 {
+        min-height: 350px;
+    }
+    .bloc_tree .div_2 .col-md-8 .row .col-md-6 .max_width_bloc h3 {
+        font-size: 21px;
+        line-height: 35px;
+    }
+    .bloc_tree .div_2 .col-md-8 .row .col-md-6 .max_width_bloc p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media(min-width: 375px) and  (max-width: 576px){
+    .parent {
+        background-image: url("../svg/Group 87_new_768_map.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 80%;
+        background-position-y: -10px;
+    }
+    .parent .parent_two .bloc_one{
+        padding-bottom: 105px
+    }
+    .top{
+        padding-top: 90px;
+    }
+    .parent .parent_two .bloc_one h1{
+        font-size: 36px;
+        padding-bottom: 10px;
+    }
+    .parent .parent_two .bloc_one p{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 0
+    }
+    .parent .parent_two .bloc_one .careers_text {
+        max-width: 64%;
+    }
+    .parent .parent_two .bloc_two{
+        padding-left: 0;
+    }
+    .parent .parent_two{
+        background-position: left 230px;
+        background-size: 85%;
+        /*background-position-x: right;*/
+    }
+    .bloc_tree .div_2 .col-md-8 .row {
+        padding-top: 200px;
+    }
+    .bloc_tree .div_2 .col-md-8 .row .col-sm-6:first-child{
+        padding-bottom: 50px;
+    }
+}
+
+@media(min-width: 576px) and  (max-width: 768px){
+    .parent {
+        background-image: url("../svg/Group 87_new_768_map.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 70%;
+        background-position-y: -20px;
+    }
+    .parent .parent_two .bloc_one{
+        padding-bottom: 125px
+    }
+    .top{
+        padding-top: 100px;
+    }
+    .parent .parent_two .bloc_one h1{
+        font-size: 46px;
+        padding-bottom: 13px;
+    }
+    .parent .parent_two .bloc_one p{
+        font-size: 19px;
+        line-height: 36px;
+        padding-bottom: 0
+    }
+    .parent .parent_two .bloc_one .careers_text {
+        max-width: 60%;
+    }
+    .parent .parent_two{
+        background-position: left 230px;
+        background-size: 80%;
+    }
+    .bloc_tree .div_2 .col-md-8 .row{
+        padding-top: 250px;
+    }
+    .bloc_tree .div_2 .col-md-8 .row .col-md-6 .max_width_bloc{
+        max-width: 80%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .parent .parent_two .bloc_one .careers_text {
+        /*padding-left: 10px;*/
+        margin-left: 10px;
+    }
+    .bloc_tree .div_1, .div_2_background{
+        display: none;
+    }
+    .bloc_tree .div_2{
+        background: url("../svg/Group 73.svg") no-repeat;
+        background-size: cover;
+        min-height: 600px;
+    }
+    .bloc_tree .div_2 .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .bloc_tree .div_2 .col-md-8 .row .col-md-6 .max_width_bloc{
+        max-width: 100%;
+    }
+
+}
+
+
+@media(min-width: 768px) and  (max-width: 992px){
+    .parent {
+        background-size: 80%;
+        background-position-y: -25px;
+    }
+    .top{
+        padding-top: 107px;
+    }
+    .parent .parent_two .bloc_one h1{
+        font-size: 56px;
+        padding-bottom: 18px;
+    }
+    .parent .parent_two .bloc_one p{
+        font-size: 21px;
+        line-height: 38px;
+        padding-bottom: 0
+    }
+    .parent .parent_two .bloc_one .careers_text {
+        max-width: 86%;
+    }
+    .parent .parent_two{
+        background-position: left center;
+    }
+    .bloc_tree .div_2 .col-md-8 .row{
+        padding-top: 120px;
+    }
+    .bloc_tree .div_2 .col-md-8 .row .col-md-6 .max_width_bloc{
+        max-width: 97%;
+    }
+}
+
+@media(min-width: 992px) and  (max-width: 1200px){
+    .parent {
+        background-size: 77%;
+        background-position-y: -45px;
+    }
+    .top{
+        padding-top: 113px;
+    }
+    .parent .parent_two .bloc_one h1{
+        font-size: 66px;
+        padding-bottom: 23px;
+    }
+    .parent .parent_two .bloc_one p{
+        font-size: 24px;
+        line-height: 45px;
+        padding-bottom: 0
+    }
+    .parent .parent_two .bloc_one .careers_text {
+        max-width: 85%;
+    }
+    .parent .parent_two{
+        background-position: left center;
+    }
+    .bloc_tree .div_2 .col-md-8 .row{
+        padding-top: 125px;
+    }
+    .bloc_tree .div_2 .col-md-8 .row .col-md-6 .max_width_bloc{
+        max-width: 86%;
+    }
+}
+
+@media(min-width: 1200px) and  (max-width: 1400px){
+    .parent {
+        background-size: 73%;
+        background-position-y: -60px;
+    }
+    .top{
+        padding-top: 119px;
+    }
+    .parent .parent_two .bloc_one h1{
+        font-size: 76px;
+        padding-bottom: 26px;
+    }
+    .parent .parent_two .bloc_one p{
+        font-size: 26px;
+        padding-bottom: 0;
+    }
+    .parent .parent_two .bloc_one .careers_text {
+        max-width: 80%;
+    }
+    .parent .parent_two{
+        background-position: left center;
+    }
+    .bloc_tree .div_2 .col-md-8 .row{
+        padding-top: 130px;
+    }
+}
+
+@media(min-width: 1400px) and  (max-width: 1620px){
+    .parent {
+        background-size: 70%;
+        background-position-y: -60px;
+    }
+    .top{
+        padding-top: 125px;
+    }
+    .parent .parent_two .bloc_one h1{
+        font-size: 86px;
+        padding-bottom: 29px;
+    }
+    .parent .parent_two .bloc_one p{
+        font-size: 28px;
+    }
+    .parent .parent_two .bloc_one .careers_text {
+        max-width: 75%;
+    }
+    .parent .parent_two{
+        background-position: left center;
+    }
+    .bloc_tree .div_2 .col-md-8 .row{
+        padding-top: 140px;
+    }
+}
+
+@media (max-width: 1920px) {
+    body{
+        max-width: 1920px;
+    }
+}
